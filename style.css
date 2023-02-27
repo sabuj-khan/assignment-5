@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	font-family: tahoma;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid gray;
+    padding: 50px;
+    background-color: gray;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.container .heading {
+	color: #ffffff;
+	width: 50%;
+	margin: 0 auto;
+	letter-spacing: 0.5px;
+}
+.container .heading hr {
+	margin-bottom: 50px;
+}
+.container input {
+	padding: 10px;
+    font-size: 19px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.container input[type=submit] {
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: gray;
+}
+.container .personal-info{
+	color: #ffffff;
+}
+.container .midle-footer {
+	color: #ffffff;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+.container .info-personal .single {
+	width: 70%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	border-radius: 2px;
+	color: gray;
+}
+.container .info-personal .single h2 {
+	padding: 13px;
+}
